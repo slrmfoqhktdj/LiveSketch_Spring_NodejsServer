@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="#">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>웹소켓</title>
+</head>
+<body style="height:100vh;margin:0;padding:0;overflow:hidden">
+    <!-- 버튼 2개 생성 -->
+    <!-- <input class="sendC" type="button" id = "shark" value="shark">
+    <input class="sendC" type="button" id = "stringray" value="stringray">
+    <input class="sendC" type="button" id = "squid" value="squid">
+    <input class="sendC" type="button" id = "tuna" value="tuna">
+    <button id="btn_close">연결 끊기</button> -->
+    <div class="top">
+        <!-- <div class="img_box" id="Shark_box">
+        </div>
+        <div class="img_box" id="Stringray_box">
+        </div>
+        <div class="img_box" id="Squid_box">
+          
+        </div>
+        <div class="img_box" id="Tuna_box">
+          
+        </div> -->
+        <b>자신만의 나비를 만들어 보세요</b>
+      </div>
+      <div class="main">
+        <div class="left_box">
+          <button class="color" id="000000"></button>
+          <button class="color" id="FF0000"></button>
+          <button class="color" id="FF5E00"></button>
+          <button class="color" id="1DDB16"></button>
+          <button class="color" id="00D8FF"></button>
+          <button class="color" id="0100FF"></button>
+          <button class="color" id="5F00FF"></button>
+        </div>
+        <div class="main_box">
+          <canvas class="line" id="line_id"></canvas>
+          
+          <canvas class="survey_canvas" id="survey_canvas01">
+          </canvas>
+          
+        </div>
+        <div class="right_box">
+          <div class="pensize_box">
+            <b>펜 두께</b>
+            <input class="pensize" type="range" min="4" max="14" id="pen_size" value="6">
+            <b class="pensize_per">6</b>
+          </div>
+          <button type="button" class="survey_canvas_option_dot_cleaner" id="survey_canvas_option_dot_cleaner_id3"><b>지우개</b></button>
+          <button type="button" class="survey_canvas_option_all_cleaner" id="survey_canvas_option_all_cleaner_id3"><b>전체 지우기</b></button>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="btn_box">
+          <img class="sendC" src="../Img/submit.png" alt="보내기">
+        </div>
+      </div>
+
+    <script type="text/javascript" src="../js/drawpage.js"></script>
+    <!-- <script type="module" src="drawpage.js"></script> -->
+    <link href="../css/drawpage.css" rel="stylesheet" type="text/css" />
+</body>
+
+</html>
